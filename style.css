@@ -25,9 +25,12 @@ P{
 }
 
 .navbar{
-    background-color: white;
-    font-size: 25px;
+  background-color: white;
+  font-size: 25px;
+  
+
 }
+
 
 .cuerpo{
     margin: 50px
@@ -134,7 +137,7 @@ P{
 
   .footer-basic {
     padding:40px 0;
-    background-color:#797373;
+    background-color:#c75c16;
     color:white;
   }
   
