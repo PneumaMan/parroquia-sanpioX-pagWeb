@@ -21,6 +21,17 @@
 }
 
 /*---------- FIN zindex-------*/
+/*------------footer imagenes----*/
+.img-footer{
+  width:400px;
+  height: 200px;
+}
+.imagenes{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*------------footer imagenes----*/
+
 #galeria img{
     width: 100%;
     height: 400px;
