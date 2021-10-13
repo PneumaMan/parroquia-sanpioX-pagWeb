@@ -55,7 +55,7 @@ P{
 }
 
 .navbar{
-  background-color: #D9A84E;
+  background-color: transparent;
   font-size: 25px;
   color: white !important;
   font-weight: bold;
@@ -451,4 +451,33 @@ p:last-child{
   max-width: 480px;
   height: 280px;
   margin: 1rem auto;;
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-light{
+  color: white !important;
+}
+
+.header {
+  background-color: transparent !important;
+  background: url(img/hoy-recortada.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.header:before {
+	content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.329);
+  height: 80vh;
 }
