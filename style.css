@@ -482,3 +482,9 @@ p:last-child{
   height: 80vh;
 }
 
+.leyenda{
+  text-align: center;
+  font-style: italic;
+  font-size: medium;
+  top: 20px;
+}
