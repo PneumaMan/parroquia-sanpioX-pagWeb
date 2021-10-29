@@ -65,6 +65,8 @@ P{
   background-color:#A65132;
   color:white;
   height: 250px;
+  margin-top:-50%;
+
 }
 
 .cuerpo{
@@ -89,7 +91,7 @@ P{
 }
 
 .linea{
-  border-top: 5px solid #0077C0;
+  border-top: 5px solid var(--color2);
   margin-bottom: 40px;
 }
 
@@ -554,9 +556,10 @@ p:last-child{
 }
 
 #subir__arriba{
-  width: 70px;
-  height: 70px;
-  background: rgb(187, 187, 187);
+  width: 50px;
+  height: 50px;
+  background: var(--color2);
+  border-radius: 50%;
   color: white;
   display: flex;
   justify-content: center;
@@ -566,8 +569,10 @@ p:last-child{
   bottom: 20px;
   cursor: pointer;
   display: none;
+  z-index: 1;
 }
 
 html{
   scroll-behavior: smooth;
 }
+

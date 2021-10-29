@@ -5,3 +5,4 @@ document.addEventListener('DOMContentLoaded', () => {
 		outDuration: 500
 	});
 });
+

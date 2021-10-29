@@ -1,3 +1,19 @@
+@font-face {
+    font-family: GTAmericaBold;
+    src: url(/fuente/GTAmericaBold/GTAmericaBold.ttf);
+}
+
+.card:hover {
+    background-color: #59281D;
+    color:white;
+
+}
+.titulocard:hover {
+    background-color: #59281D;
+    color:white;
+
+}
+
 .imagen{
     height: 350px;
     width: 300px;
@@ -6,12 +22,63 @@
 .cristo{
     height: 500px;
     width: 350px;
+    
 }
 
 .parrafoInicial{
     font-style: oblique;
-    font-weight: bold; 
+    font-weight:300px; 
     text-align: center !important;
-    font-size: 20px;
+    font-size: 15px;
+    color: white;
    
 }
+
+.titulocard{
+    color: #59281D;
+    font-weight:bold;
+    text-align: center;
+    font-family: GTAmericaBold;
+    font-size: 40px;
+}
+
+h2{
+    color: #59281D;
+    font-weight:bold;
+    
+    font-size: 40px; 
+}
+.fondo{
+    background-color: rgb(235, 128, 52);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 95%);
+    height: 600px;
+    
+}
+
+.img-card{
+    height: 230px;
+    width: 300px;
+}
+
+
+@media screen and (max-width: 992px){
+    .fondo{
+        height: 800px;
+    }
+
+    .imagen{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .fondo{
+        height: 950px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+
+
+
