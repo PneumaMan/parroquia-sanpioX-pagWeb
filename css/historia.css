@@ -3,20 +3,15 @@
     src: url(/fuente/GTAmericaBold/GTAmericaBold.ttf);
 }
 
-.card:hover {
+.card:hover  {
     background-color: #59281D;
     color:white;
 
 }
-.titulocard:hover {
-    background-color: #59281D;
-    color:white;
-
-}
-
 .imagen{
     height: 350px;
     width: 300px;
+    border-radius: 25px;
 }
 
 .cristo{
@@ -28,14 +23,14 @@
 .parrafoInicial{
     font-style: oblique;
     font-weight:300px; 
-    text-align: center !important;
-    font-size: 15px;
+    text-align: justify !important;
+    font-size: 18px;
     color: white;
    
 }
 
 .titulocard{
-    color: #59281D;
+    color: #d9a84e;
     font-weight:bold;
     text-align: center;
     font-family: GTAmericaBold;
@@ -51,13 +46,14 @@ h2{
 .fondo{
     background-color: rgb(235, 128, 52);
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 95%);
-    height: 600px;
+    height: 690px;
     
 }
 
 .img-card{
     height: 230px;
     width: 300px;
+    border-radius: 25px;
 }
 
 
@@ -69,6 +65,7 @@ h2{
     .imagen{
         height: auto;
         width: auto;
+        border-radius: 25px;
     }
 }
 

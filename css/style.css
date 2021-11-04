@@ -15,6 +15,11 @@
   z-index: 100;
 }
 
+.navbar > ul > li > a.seleccionado {
+  background:transparent;
+  color:var(--color2);
+}
+
 .carousel{
   position: absolute;
   z-index: 101;
@@ -471,7 +476,7 @@ p:last-child{
   background-color: transparent !important;
   background: url(img/hoy-recortada.jpg) no-repeat center;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 60vh;
 }
 
 .header:before {
@@ -484,6 +489,7 @@ p:last-child{
 	background-color: rgba(0, 0, 0, 0.329);
   height: 80vh;
 }
+
 
 .leyenda{
   text-align: center;
