@@ -4,6 +4,13 @@
   border-radius: 15px;
 }
 
+nav ul a {
+  font-size: 25px !important;
+}
+
+.navbar .navbar-expand-lg .navbar-dark{
+  border: none;
+}
 .materialbox-caption {
   bottom: 30px;
   right: 0;

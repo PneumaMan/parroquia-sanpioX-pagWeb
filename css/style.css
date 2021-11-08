@@ -20,6 +20,8 @@
   color:var(--color2);
 }
 
+
+
 .carousel{
   position: absolute;
   z-index: 101;
@@ -61,11 +63,16 @@ P{
 
 .navbar{
   background-color: transparent;
-  font-size: 25px;
+  font-size: 25px !important;
   color: white !important;
   font-weight: bold;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 
 }
+
+
 .bienvenida{
   background-color:#A65132;
   color:white;
@@ -467,6 +474,7 @@ p:last-child{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 35px !important;
 }
 
 .navbar-light{
